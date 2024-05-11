@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className=" bg-black/20 h-full">
       <div className="h-full flex justify-center items-center bg-primary/10">
-        <div className="container grid grid-cols-1 gap-4">
+        <div className="container grid grid-cols-1 gap-4 pt-10">
           <div className="text-white">
 
        
