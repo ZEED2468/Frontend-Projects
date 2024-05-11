@@ -42,7 +42,7 @@ const Footer = () => {
           <source src={NatureVid} type="video/mp4" />
         </video>
         <div className="container">
-          <div className="grid md:grid-cols-3 py-5 bg-white/80 backdrop-blur-sm rounded-t-xl">
+          <div className="grid md:grid-cols-3 py-5 bg-white/80 backdrop-blur-sm rounded-t-xl gap-3">
             <div className="py-8 px-4">
               <h1 className="flex items-center gap-3 text-xl sm:text-3xl font-bold text-justify sm:text-left">
                 <img src={FooterLogo} alt="" className="max-h-[60px]" />
@@ -92,12 +92,11 @@ const Footer = () => {
                   <ul className="flex flex-col gap-3">
                     {FooterLinks.map((link) => (
                       <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-gray-200">
-                        <span>&#11162;</span>
                         <Link
                           to={link.link}
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          
+                          <span>&#11162;</span>
                           <span>{link.title}</span>
                         </Link>
                       </li>
@@ -113,12 +112,11 @@ const Footer = () => {
                   <ul className="flex flex-col gap-3">
                     {FooterLinks.map((link) => (
                       <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-gray-200">
-                        <span>&#11162;</span>
                         <Link
                           to={link.link}
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          
+                          <span>&#11162;</span>
                           <span>{link.title}</span>
                         </Link>
                       </li>
