@@ -55,8 +55,8 @@ const Hero = () => {
                   type="date"
                   name="destination"
                   id="destination"
-                  className="w-full placeholder-slate-400 bg-gray-100 my-2 range accent-primary focus:outline focus:outline-none outline-1 rounded-full p-2"
-                  style={{ maxWidth: '100%', boxSizing: 'border-box', width: '1rem', height: '2.5rem', fontSize: '1rem' }}
+                  className="w-full md:w-auto placeholder-slate-400 bg-gray-100 my-2 range accent-primary focus:outline focus:outline-none outline-1 rounded-full p-2"
+                  style={{ maxWidth: '100%', boxSizing: 'border-box', height: '2.5rem', fontSize: '1rem' }}
                   />
                   {/* // className="w-full !placeholder-slate-400 bg-gray-100 my-2 rounded-full focus:outline-primary focus:outline outline-1 p-2" */}
               </div>
