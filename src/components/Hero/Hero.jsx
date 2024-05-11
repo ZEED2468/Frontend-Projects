@@ -47,7 +47,7 @@ const Hero = () => {
                   className="w-full bg-gray-100 my-2 range accent-primary focus:outline-primary focus:outline outline-1 rounded-full p-2"
                 />
               </div>
-              <div>
+              <div className="flex flex-col items-start">
                 <label htmlFor="destination" className="opacity-70">
                   Date
                 </label>
@@ -55,7 +55,8 @@ const Hero = () => {
                   type="date"
                   name="destination"
                   id="destination"
-                  className="w-full !placeholder-slate-400 bg-gray-100 my-2 rounded-full focus:outline-primary focus:outline outline-1 p-2"
+                  className="w-full bg-gray-100 my-2 range accent-primary focus:outline-primary focus:outline outline-1 rounded-full p-2"
+                  // className="w-full !placeholder-slate-400 bg-gray-100 my-2 rounded-full focus:outline-primary focus:outline outline-1 p-2"
                 />
               </div>
               <div>
