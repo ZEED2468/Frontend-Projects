@@ -124,7 +124,7 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-              <div>
+              {/* <div>
                 <div className="py-8 px-4">
                   <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
                     Important Links
@@ -142,7 +142,7 @@ const Footer = () => {
                       </li>
                     ))}
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
