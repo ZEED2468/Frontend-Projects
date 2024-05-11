@@ -52,12 +52,19 @@ const Hero = () => {
                   Date
                 </label>
                 <input
+                  type="text"
+                  name="destination"
+                  id="destination"
+                  placeholder="Nigeria"
+                  className="w-full bg-gray-100 my-2 range accent-primary focus:outline-primary focus:outline outline-1 rounded-full p-2"
+                />
+                {/* <input
                   type="date"
                   name="destination"
                   id="destination"
                   className="w-full !placeholder-slate-400 bg-gray-100 my-2 range accent-primary focus:outline focus:outline outline-1 rounded-full p-2"
                   // className="w-full !placeholder-slate-400 bg-gray-100 my-2 rounded-full focus:outline-primary focus:outline outline-1 p-2"
-                />
+                /> */}
               </div>
               <div>
                 <label htmlFor="destination" className="opacity-70 block">
